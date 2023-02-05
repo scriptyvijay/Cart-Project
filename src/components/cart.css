@@ -1,0 +1,28 @@
+.cart {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	justify-content: left;
+	min-width: 200px;
+	width: 800px;
+	margin: 10px 10px;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.left img {
+	width: auto;
+	height: 200px;
+}
+
+.func-btn {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+}
+.func-btn img {
+	width: auto;
+	height: 25px;
+	cursor: pointer;
+	user-select: none;
+}
